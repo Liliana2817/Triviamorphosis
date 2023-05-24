@@ -34,3 +34,14 @@ Si deseas contribuir a este proyecto, sigue los pasos a continuación:
 <p> ¡Disfruta de Triviamorphosis y amplía tus conocimientos de programación dinámica! Si tienes alguna pregunta o sugerencia, no dudes en comunicárnosla. ¡Buena suerte! </p>
 
 ## Desarrollado por:
+<a href="https://github.com/juancmacias">
+    <img src="https://avatars.githubusercontent.com/u/53483587?v=4" title="Juan Carlos Macías" width="80" height="80" style="max-width: 100%;"></a>
+ 
+ <a href="https://github.com/AlbertoDiazEsteban">
+    <img src="https://avatars.githubusercontent.com/u/126780588?v=4" title="AlbertoDiazEsteban" width="80" height="80" style="max-width: 100%;"></a>
+
+<a href="https://github.com/askor222">
+    <img src="https://avatars.githubusercontent.com/u/126780308?v=4" title="askor222" width="80" height="80" style="max-width: 100%;"></a>
+   
+   <a href="https://github.com/Liliana2817">
+    <img src="https://avatars.githubusercontent.com/u/126781409?v=4" title="Liliana2817" width="80" height="80" style="max-width: 100%;"></a>
