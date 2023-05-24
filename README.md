@@ -4,7 +4,7 @@
 # React-HTML-CSS-JS-scss
 <div>
 <p style = 'text-align:center;'>
-<img src="https://user-images.githubusercontent.com/126781088/229580377-f7f50c57-8688-4a43-8dc7-6513f6f84e73.png" alt="JuveYell" width="300px">
+<img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/283833175/original/0a834113cddac16445026a21442bb894042e63a4/do-frontend-web-development-in-html-css-and-reactjs.png" alt="JuveYell" width="300px">
 </p>
 </div>
 
