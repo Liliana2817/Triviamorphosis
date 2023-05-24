@@ -1,5 +1,5 @@
 # Triviamorphosis
-Triviamorphosis es una página web interactiva basada en HTML, CSS, JavaScript, React y SCSS. Esta aplicación te desafía con preguntas relacionadas con programación dinámica y te permite poner a prueba tus conocimientos en HTML, JavaScript, React,PYTHON, SCSS y CSS. ¡Diviértete mientras aprendes!
+Triviamorphosis es una página web interactiva basada en React( HTML, CSS, JavaScript y SCSS). Esta aplicación te desafía con preguntas relacionadas con programación dinámica y te permite poner a prueba tus conocimientos en HTML, JavaScript, React,PYTHON, SCSS y CSS. ¡Diviértete mientras aprendes!
 
 <img src="https://github.com/Liliana2817/Triviamorphosis/assets/126781409/137fa86f-68e3-43b2-b5df-f017c0780944/do-frontend-web-development-in-html-css-and-reactjs.png" alt="JuveYell"  width="300px">
 
@@ -10,13 +10,12 @@ Triviamorphosis es una página web interactiva basada en HTML, CSS, JavaScript, 
 </p>
 </div>
 
-## Características de la página
+## Características de la Aplicación
 - Interfaz de usuario atractiva y fácil de usar.
-- Amplia variedad de preguntas relacionadas con programación dinámica.
-- Retroalimentación inmediata sobre la respuesta correcta o incorrecta.
+- Amplia variedad de preguntas relacionadas con programación.
+- Uso de un modelo de inteligencia Artificial de la empresa openAi para generar las preguntas.
+- Facilidad de registro con el login de api de registro.
 - Contador de puntos para seguir tu progreso.
-- Opción de compartir tus resultados en las redes sociales.
-
 
 ## Uso
 Para utilizar esta página, simplemente abre el archivo index.html en un navegador web. Si deseas editar la página, los archivos HTML, CSS y JavaScript están disponibles en el repositorio.
@@ -33,3 +32,5 @@ Si deseas contribuir a este proyecto, sigue los pasos a continuación:
 * https://validator.w3.org/ - Herramienta para validar la estructura y calidad del código HTML.
 
 <p> ¡Disfruta de Triviamorphosis y amplía tus conocimientos de programación dinámica! Si tienes alguna pregunta o sugerencia, no dudes en comunicárnosla. ¡Buena suerte! </p>
+
+## Desarrollado por:
