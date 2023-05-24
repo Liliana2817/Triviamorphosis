@@ -38,6 +38,13 @@ Si deseas contribuir a este proyecto, sigue los pasos a continuación:
    
    <a href="https://github.com/Liliana2817">
     <img src="https://avatars.githubusercontent.com/u/126781409?v=4" title="Liliana2817" width="80" height="80" style="max-width: 100%;"></a>
+    
+* Scrum Master: Liliana Garcia Severiche
+* Product Owner: Alberto Diaz Esteban
+* Desarrolladores:
+  - Juan Carlos Macías
+  - Kibria (askor222)
+
 
 # Tecnología usada:
 * React-HTML-CSS-JS-scss
