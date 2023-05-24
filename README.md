@@ -3,13 +3,6 @@ Triviamorphosis es una página web interactiva basada en React( HTML, CSS, JavaS
 
 <img src="https://github.com/Liliana2817/Triviamorphosis/assets/126781409/137fa86f-68e3-43b2-b5df-f017c0780944/do-frontend-web-development-in-html-css-and-reactjs.png" alt="JuveYell"  width="300px">
 
-# React-HTML-CSS-JS-scss
-<div>
-<p style = 'text-align:center;'>
-<img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/283833175/original/0a834113cddac16445026a21442bb894042e63a4/do-frontend-web-development-in-html-css-and-reactjs.png" alt="JuveYell" width="300px">
-</p>
-</div>
-
 ## Características de la Aplicación
 - Interfaz de usuario atractiva y fácil de usar.
 - Amplia variedad de preguntas relacionadas con programación.
@@ -45,3 +38,11 @@ Si deseas contribuir a este proyecto, sigue los pasos a continuación:
    
    <a href="https://github.com/Liliana2817">
     <img src="https://avatars.githubusercontent.com/u/126781409?v=4" title="Liliana2817" width="80" height="80" style="max-width: 100%;"></a>
+
+# Tecnología usada:
+* React-HTML-CSS-JS-scss
+<div>
+<p style = 'text-align:center;'>
+<img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/283833175/original/0a834113cddac16445026a21442bb894042e63a4/do-frontend-web-development-in-html-css-and-reactjs.png" alt="JuveYell" width="300px">
+</p>
+</div>
