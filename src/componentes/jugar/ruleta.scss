@@ -1,0 +1,171 @@
+
+/* ------------------------------- RULETA ------------------------ */
+/* ------------------------------- RULETA ------------------------ */
+/* ------------------------------- RULETA ------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Nunito', sans-serif;
+  
+}
+
+img[alt~="roulette-static"] { 
+    content: url("/src/img/triviafly.svg"); 
+    position: relative !important; 
+    z-index: 15; 
+    width: 10%;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important; 
+}
+
+/* boton de girar */
+.btn-girar img{
+    position: absolute;
+    z-index: 16 !important;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    top: 90% !important;
+    left: 90% !important;
+}
+/* boton de cerrar */
+.btn-cerrar img{
+    position: absolute;
+    z-index: 16 !important;
+    width: 50px;
+    height: 50px;
+    top: 10% !important;
+    left: 90% !important;
+}
+.btn-cerrar:hover{
+    color: white;
+}
+
+.games-counter {
+    position: absolute;
+    top: 10% !important;
+    left: 10% !important;
+    z-index: 16 !important;
+    h3 {
+        font-weight: 900;
+        color: #f7f9fb;
+        font-size: 20px;
+        text-align: center; 
+    }
+    p {
+        margin-top: -15px;
+        font-weight: 900;
+        color: #f7f9fb;
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+/* ruleta */
+.bhdLno {
+    margin: 0 auto;
+    position: absolute !important;
+    width: 2000px !important;
+    min-width: 2000px !important;
+    max-width: 2000px !important;
+    height: 2000px !important;
+    min-height: 2000px !important;
+    max-height: 2000px !important;
+    object-fit: contain;
+    flex-shrink: 0;
+    z-index: 10 !important;
+    pointer-events: none;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important; 
+    filter: blur(-100px);
+}
+
+
+/* ------------------------------- Juego de las preguntas ------------------------ */
+/* ------------------------------- Juego de las preguntas ------------------------ */
+/* ------------------------------- Juego de las preguntas ------------------------ */
+
+.oculto{
+    display: none;
+}
+.visible{
+    display: block!important;
+}
+.rpregunta{
+    font-size: 1.8em;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 20px
+}
+.mostrar{
+    max-width: 350px;
+    margin: 200px auto 0;
+    background: rgba(213,215,222,0.4);
+    border: 1px solid #B0B6BE;
+    z-index: 1002;
+}
+.pregunta{
+    font-size: 2em;
+
+    word-wrap: break-word;
+}
+
+.fuenteboton{
+    width:100%;
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+    height:100px;
+    font-size:1.8em
+}
+.time{ 
+
+     -webkit-text-stroke: 1px #8F37FF; /* width and color */
+    font-size: 4.8em;
+    color: #FF96FB;
+    text-align: center;
+}
+.fondoModal_A{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .65);
+    display: none;
+    z-index: 9999;
+    animation: fadeInFromNone 1s ease-out; 
+}
+
+.contenedorModal_A {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenidoModal_A {
+    animation-duration: 1s;
+    animation-name: slidein;
+    display: none;
+    /*tanto el fondo como el contenido modal se ocultan para luego mostrar el contenido tras cargar el fondo*/
+
+    flex-basis: 50%;
+
+    padding: 20px;
+
+    border-radius: 15px;
+    background: #f7f9fb;
+
+}
+
