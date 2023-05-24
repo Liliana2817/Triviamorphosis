@@ -1,0 +1,77 @@
+/* Float four columns side by side */
+.column {
+    
+    width: 200px!important;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    display: flex!important;
+    align-items: center;
+  justify-content: center;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  
+  /* Style the counter cards */
+  .card {
+    display: flex!important;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 400px!important;
+  }
+button{
+    border-radius: 5px!important;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+.column:first-child button{
+    background-color: #ffae09;
+    border-color: #ffae09;
+    
+  }
+.row button {
+    background-color: #090dff;
+    border-color: #090dff;
+  }
+.column:last-child button {
+    background-color: #ff3a09;
+    border-color: #ff3a09;
+  }
+  .column:first-child h3{
+    color: #ffae09;
+  }
+.row h3 {
+    color: #090dff;
+  }
+.column:last-child h3 {
+   color: #ff3a09;
+  }
+.precio{
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.usuario{
+  font-size: 1.7em;
+  font-weight: 400;
+}
+main h2{
+  text-align: center;
+  font-size: 1.6em;
+}
+

@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "title": "Básico",
+        "op1": "Diez segundos para responder",
+        "op2": "Solo puedes jugar una ronda de 5 tiradas",
+        "op3": "basic",
+        "invited": 30,
+        "precio": "gratis",
+        "moneda": ""
+    },
+    {
+        "id": 2,
+        "title": "Intermedio",
+        "op1": "Quince sengudos para responder",
+        "op2": "Solo puedes jugar dos rondas de 5 tiradas",
+        "op3": "basic",
+        "invited": 35,
+        "precio": "35.00",
+        "moneda": "€"
+
+    },
+    {
+        "id": 3,
+        "title": "Avanzado",
+        "op1": "Veinte segundos para responder",
+        "op2": "Juegas tres rondas de 6 tiradas",
+        "op3": "basic",
+        "invited": 40,
+        "precio": "70.00",
+        "moneda": "€"
+    }
+]
