@@ -104,4 +104,10 @@ main h2 {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+}
+
+.empty-message {
+  color: white;
+  text-align: center;
+  margin: 60px 0px;
 }/*# sourceMappingURL=lista.css.map */

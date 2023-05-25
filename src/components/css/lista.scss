@@ -1,103 +1,109 @@
 /* Float four columns side by side */
 .column1 {
-    width: 100%!important;
-    height: 250px;
-    padding: 0 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
+  width: 100%!important;
+  height: 250px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 
-  /* Remove extra left and right margins, due to padding */
-  .row1 {
-    display: flex!important;
-    align-items: center;
-    justify-content: center;
+/* Remove extra left and right margins, due to padding */
+.row1 {
+  display: flex!important;
+  align-items: center;
+  justify-content: center;
 
-  }
-  
-  /* Clear floats after the columns */
-  .row1:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
+}
 
-  
-  /* Style the counter cards */
-  .card1 {
-    display: flex!important;
-    align-items: center;
-    justify-content: space-around;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
-    height: 400px!important;
-    width: 90%;
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-     .p-1{
-        color: black;
 
-        li{
-            list-style: inside;
-        }
-     }
-  }
+
+/* Style the counter cards */
+.card1 {
+  display: flex!important;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 400px!important;
+  width: 90%;
+
+   .p-1{
+      color: black;
+
+      li{
+          list-style: inside;
+      }
+   }
+}
 button{
-    border-radius: 5px!important;
-    border: none;
-    color: white;
-    padding: 10px;
+  border-radius: 5px!important;
+  border: none;
+  color: white;
+  padding: 10px;
 }
 .column:first-child button{
-    background-color: #ffae09;
-    border-color: #ffae09;
-    
-  }
+  background-color: #ffae09;
+  border-color: #ffae09;
+  
+}
 .row button {
-    background-color: #090dff;
-    border-color: #090dff;
-  }
+  background-color: #090dff;
+  border-color: #090dff;
+}
 .column:last-child button {
-    background-color: #ff3a09;
-    border-color: #ff3a09;
-  }
-  .column:first-child h3{
-    color: #ffae09;
-  }
+  background-color: #ff3a09;
+  border-color: #ff3a09;
+}
+.column:first-child h3{
+  color: #ffae09;
+}
 .row h3 {
-    color: #090dff;
-  }
+  color: #090dff;
+}
 .column:last-child h3 {
-   color: #ff3a09;
-  }
+ color: #ff3a09;
+}
 .precio{
-  font-size: 1.6em;
-  margin-bottom: 10px;
-  font-weight: 600;
+font-size: 1.6em;
+margin-bottom: 10px;
+font-weight: 600;
 }
 .usuario{
-  font-size: 1.7em;
-  font-weight: 400;
+font-size: 1.7em;
+font-weight: 400;
 }
 main h2{
-  text-align: center;
-  font-size: 1.6em;
+text-align: center;
+font-size: 1.6em;
 }
 
 .botton{
-    background-color:#ff1a1a;
+  background-color:#ff1a1a;
 }
 
 .total-carrito{
-    width: 88%;
-    height: 60px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+  width: 88%;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.empty-message {
+  color:white;
+  text-align: center;
+  margin: 60px 0px;
 }
