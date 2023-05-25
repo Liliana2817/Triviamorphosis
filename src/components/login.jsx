@@ -22,25 +22,25 @@ function Login() {
     return (
         <div>
             {profile ? (
-                <div class="opc">
-                    <div class="selectorOrder">
-                        <div class="dropup">
-                            <button class="dropbtn">
+                <div className="opc">
+                    <div className="selectorOrder">
+                        <div className="dropup">
+                            <button className="dropbtn">
                                 <Space wrap size={16}>
                                     <Avatar src={profile.google ? profile.google.picture : 'https://img.freepik.com/vector-premium/icono-perfil-avatar_188544-4755.jpg'} />
                                 </Space>
                             </button>
-                        <div class="dropup-content">
+                        <div className="dropup-content">
                             <p>{profile.nombre}</p>
                             <p>{profile.email}</p>
-                            <div><button class="nuevo" onClick={logOut}>Cerrar sesión</button></div>
+                            <div><button className="nuevo" onClick={logOut}>Cerrar sesión</button></div>
                         </div>
                         </div>
                     </div>
                 </div>
             ) : (
-                <div class="selectorOrder">
-                    <div class="login">
+                <div className="selectorOrder">
+                    <div className="login">
                         <a href='/logarse'>Logarse</a>
                     </div>
                 </div>

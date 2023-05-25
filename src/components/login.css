@@ -237,6 +237,10 @@ a {
   border-radius: 10px;
 }
 
+.formulario h3 {
+  color: #be3cdf;
+}
+
 .formulario input {
   margin-top: 10px;
 }
