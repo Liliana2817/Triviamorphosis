@@ -13,6 +13,7 @@ Triviamorphosis es una solición interactiva basada en React( HTML, CSS, JavaScr
 ## Uso
 Para poder disfrutar del juego deberás iniciar sesión con la siguiente cuenta, en el apartado logarse: 
 la cuenta es prueba@ini.es contraseña: 1
+* En este link pueden entrar al juego: https://juancmacias.github.io/pruebadreact/
 
 ## Contribución
 ¡Las contribuciones son bienvenidas! 
