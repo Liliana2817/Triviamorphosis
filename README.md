@@ -11,7 +11,8 @@ Triviamorphosis es una solición interactiva basada en React( HTML, CSS, JavaScr
 - Contador de puntos para seguir tu progreso.
 
 ## Uso
-Para utilizar esta página, simplemente abre el archivo index.html en un navegador web. Si deseas editar la página, los archivos HTML, CSS y JavaScript están disponibles en el repositorio.
+Para poder disfrutar del juego deberás iniciar sesión con la siguiente cuenta, en el apartado logarse: 
+la cuenta es prueba@ini.es contraseña: 1
 
 ## Contribución
 ¡Las contribuciones son bienvenidas! 
