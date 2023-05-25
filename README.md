@@ -23,6 +23,8 @@ Si deseas contribuir a este proyecto, sigue los pasos a continuación:
 ## Links
 * https://scrollrevealjs.org/guide/hello-world.html - Biblioteca utilizada para animaciones en la página.
 * https://validator.w3.org/ - Herramienta para validar la estructura y calidad del código HTML.
+* https://www.figma.com/file/VnbSdSyMQYMnye4TY7jngL/Triviamorphosis?type=design&node-id=0%3A1&t=PiQUnBIuNTzeJQrm-1 -Figma
+* https://www.canva.com/design/DAFj1OaN_yQ/z3Jks6hqjw5nkF8QeI5gTw/edit?utm_content=DAFj1OaN_yQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton - Presentación
 
 <p> ¡Disfruta de Triviamorphosis y amplía tus conocimientos de programación dinámica! Si tienes alguna pregunta o sugerencia, no dudes en comunicárnosla. ¡Buena suerte! </p>
 
