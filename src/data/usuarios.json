@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "email": "juancmaciassalvador@gmail.com",
+        "passord": "",
+        "nombre": "Juan Caros",
+        "fecha": "28-12-1967",
+        "google": {
+            "id": "113953455992527053387",
+            "email": "juancmaciassalvador@gmail.com",
+            "verified_email": true,
+            "name": "Juan Carlos Macías",
+            "given_name": "Juan Carlos",
+            "family_name": "Macías",
+            "picture": "https://lh3.googleusercontent.com/a/AAcHTtfp-Zbcm6-4VEVnzyre9CLYF5odRFcVRziueYkoOQ=s96-c",
+            "locale": "es"
+          },
+        "productos": {
+            "id": 2,
+            "title": "Intermedio",
+            "op1": "Treinta sengudos para responder",
+            "op2": "Solo puedes jugar dos rondas de 5 tiradas",
+            "op3": "basic",
+            "invited": 35,
+            "precio": "35.00",
+            "moneda": "€",
+            "time":30,
+            "tiras":5,
+            "ronda":2
+    
+        }
+    },
+    {
+        "id": 2,
+        "email": "prueba@ini.es",
+        "passord": "1",
+        "nombre": "Prueba Ini",
+        "fecha": "24-05-2023",
+        "productos": {
+            "id": 2,
+            "title": "Intermedio",
+            "op1": "Treinta sengudos para responder",
+            "op2": "Solo puedes jugar dos rondas de 5 tiradas",
+            "op3": "basic",
+            "invited": 35,
+            "precio": "35.00",
+            "moneda": "€",
+            "time":30,
+            "tiras":5,
+            "ronda":2
+    
+        }
+
+    },
+    {
+        "id": 3,
+        "email": "prueba@dos.com",
+        "passord": "1",
+        "nombre": "Prueba Dos",
+        "fecha": "24-05-2023"
+    },
+    {
+        "id": 4,
+        "email": "liliana@aroba.com",
+        "passord": "1",
+        "nombre": "Liliana",
+        "fecha": "24-05-2023"
+    }
+]

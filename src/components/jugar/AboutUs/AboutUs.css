@@ -1,0 +1,45 @@
+.about-us {
+  margin-top: 100px;
+  width: 100%;
+  padding: 40px 0;
+  background-color: white;
+  color: #9F65FF;
+  display: block;
+  align-items: center;
+}
+
+.about-us .container-about {
+  display: grid;
+  gap: 50px;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us .container-about img {
+  min-width: 100%;
+  margin: 0 auto;
+}
+
+.about-us .container-about:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us .container-about h2 {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.about-us .container-about p {
+  margin: 50px 50px;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-about {
+    grid-template-columns: 1fr 1fr;
+  }
+}/*# sourceMappingURL=AboutUs.css.map */

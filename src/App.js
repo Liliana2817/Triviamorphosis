@@ -1,32 +1,43 @@
-import logo from './logo.svg';
+import React from 'react'
+import {
+  BrowserRouter ,
+  Route, Routes
+} from "react-router-dom";
+
+
+import Jugar from './components/Jugar';
+import Nuvousuario from './components/Nuvousuario';
+import Detalles from './components/Detalles';
+import Productos from './components/Productos';
+import Header from './components/Header';
+import Footer from './footer/Footer';
+import Comenzarjuego from './components/jugar/Comenzarjuego';
+import Logarse from './components/logarse';
+import Lista from './components/Lista'
+import Resumen from './components/resumen'
+
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <Header1/>
 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return (
+    <BrowserRouter>
+    <div>
+      <Header/>
+        <Routes>
+            <Route exact path='pruebadreact/' element={<Jugar />} />
+            <Route path='productos' element={<Productos />} />
+            <Route path='register' element={<Nuvousuario />} />
+            <Route path='logarse' element={<Logarse />} />
+            <Route path='detalles/:id' element={<Detalles />} />
+            <Route path='jugar' element={<Comenzarjuego />} />
+            <Route path='carrito' element={<Lista />} /> 
+            <Route path='resumen' element={<Resumen />} /> 
+        </Routes>
+      <Footer/>
     </div>
-  );
-}
-function Header1(){
-  return(
-    <p>lo uer</p>
-  );
+    </BrowserRouter>
+  )
 }
 
 export default App;

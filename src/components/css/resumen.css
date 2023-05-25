@@ -1,0 +1,7 @@
+.gameover {
+  text-align: center;
+  font-size: 7em;
+  -webkit-text-shadow: 10px 8px #FEDC00, -10px 12px #FE8A34, -8px -12px #FE51FF, 12px -5px #9F65FF, 12px -5px #0064EF;
+  -moz-text-shadow: 10px 8px #FEDC00, -10px 12px #FE8A34, -8px -12px #FE51FF, 12px -5px #9F65FF, 12px -5px #0064EF;
+  text-shadow: 10px 8px #FEDC00, -10px 12px #FE8A34, -8px -12px #FE51FF, 12px -5px #9F65FF, 12px -5px #0064EF;
+}/*# sourceMappingURL=resumen.css.map */

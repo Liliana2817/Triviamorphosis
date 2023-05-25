@@ -1,0 +1,41 @@
+.resultado {
+  animation-duration: 1s;
+  animation-name: slidein;
+  flex-basis: 50%;
+  height: 30vh;
+  padding: 20px;
+  border-radius: 15px;
+  background: #f7f9fb;
+}
+
+.acierto_fallo {
+  text-align: center;
+  color: #f7f9fb;
+  font-size: 1.8em;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  justify-content: center;
+}
+
+.acertado {
+  background: rgb(87, 255, 87);
+}
+
+.fallo {
+  background: rgb(255, 75, 75);
+}
+
+.resultado img {
+  height: 140px;
+  width: 140px;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+  animation: scale 5s linear infinite;
+}
+
+@keyframes scale {
+  50% {
+    transform: scale(1.2);
+  }
+}/*# sourceMappingURL=resultado.css.map */
