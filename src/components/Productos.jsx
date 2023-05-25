@@ -1,16 +1,28 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import valores from '../data/datos_valor.json';
 import './css/productos.css';
 
 function Productos() {
   const [carrito, setCarrito] = useState([]);
+  const [mensaje, setMensaje] = useState('');
 
   const anidar = (datos) => {
     const carro = [...carrito, datos];
     setCarrito(carro);
     localStorage.setItem('carro', JSON.stringify(carro));
+    setMensaje(`¡Has agregado el producto "${datos.title}"!`);
   };
+
+  useEffect(() => {
+    if (mensaje) {
+      const timer = setTimeout(() => {
+        setMensaje('');
+      }, 3000); // 3 segundos
+
+      return () => clearTimeout(timer);
+    }
+  }, [mensaje]);
 
   return (
     <main>
@@ -27,11 +39,12 @@ function Productos() {
               <p>{datos.op2}</p>
               <p>{datos.op3}</p>
               <div className="usuario">{datos.invited}</div>
-              <button onClick={() => anidar(datos)}>Seleccionar plan</button>
+              <button onClick={() => {anidar(datos)}}>Seleccionar plan</button>
             </div>
           </div>
         ))}
       </div>
+      {mensaje && <p className='mesaje-agregado'>{mensaje}</p>}
     </main>
   );
 }

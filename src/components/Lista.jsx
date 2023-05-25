@@ -73,7 +73,7 @@ function Lista() {
               </div>
             ))}
           </div>
-          <h2 className='total-carrito'>Total precio: {calcularPrecioTotal()} </h2>
+          <h3 className='total-carrito'>Total precio: {calcularPrecioTotal()} </h3>
         </>
       )}
     </div>
