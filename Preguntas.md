@@ -8,6 +8,7 @@ El estado del cumplimiento de los objetivos por parte del grupo y si aportaron a
 * Consumo de la API GPT-3 para la creación de las preguntas del juego.
 * Implementacion y personalización de un componente de terceros.
 * Mobile first.
+* Realizada prueba unitaria del  cabeza(Header)
 
 La presentación de los mismos al resto de equipos
 ....?
