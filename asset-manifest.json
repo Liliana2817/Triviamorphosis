@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/juancmacias/pruebadreact.git/static/css/main.9c77c13e.css",
+    "main.js": "/juancmacias/pruebadreact.git/static/js/main.b111490d.js",
+    "static/media/misc333.mp3": "/juancmacias/pruebadreact.git/static/media/misc333.ad776739a35f166538b8.mp3",
+    "static/media/fondo_main.svg": "/juancmacias/pruebadreact.git/static/media/fondo_main.11eb6bcf0b80cf09d67134043c6e95d4.svg",
+    "static/media/triviafly.svg": "/juancmacias/pruebadreact.git/static/media/triviafly.800301851361abb55517.svg",
+    "static/media/spin.svg": "/juancmacias/pruebadreact.git/static/media/spin.f8bff7e645c947e2c201a3328ef6824d.svg",
+    "static/media/close.svg": "/juancmacias/pruebadreact.git/static/media/close.ef807985a37c48c474ce2aa54059d2a5.svg",
+    "index.html": "/juancmacias/pruebadreact.git/index.html",
+    "main.9c77c13e.css.map": "/juancmacias/pruebadreact.git/static/css/main.9c77c13e.css.map",
+    "main.b111490d.js.map": "/juancmacias/pruebadreact.git/static/js/main.b111490d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c77c13e.css",
+    "static/js/main.b111490d.js"
+  ]
+}
