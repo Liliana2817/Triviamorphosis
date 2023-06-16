@@ -15,11 +15,11 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 -200px;
 }
 
 .iniciar-booton {
-  color: #9F65FF;
+  color: lime;
   background-color: white;
   font-size: 35px;
   font-weight: 800;
@@ -37,7 +37,7 @@ section {
 
 .iniciar-booton:hover {
   color: white;
-  background-color: #FE51FF;
+  background-color: lime;
 }
 
 .iniciar-booton a {

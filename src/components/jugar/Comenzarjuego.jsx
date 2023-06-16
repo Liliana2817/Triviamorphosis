@@ -15,12 +15,12 @@ import spin from '../../img/spin.svg';
 
 
 const data = [
-  { option: 'JavaScript', style: { backgroundColor: '#FEDC00' } },
-  { option: 'CSS', style: { backgroundColor: '#FE8A34' } },
-  { option: 'SASS', style: { backgroundColor: '#FE51FF' } },
-  { option: 'REACT', style: { backgroundColor: '#9F65FF' } },
-  { option: 'HTML', style: { backgroundColor: '#0064EF' } },
-  { option: 'PYTHON', style: { backgroundColor: '#50DC64' } },
+  { option: 'Phishing', style: { backgroundColor: '#FEDC00' } },
+  { option: 'Malware', style: { backgroundColor: '#FE8A34' } },
+  { option: 'Firewall', style: { backgroundColor: '#FE51FF' } },
+  { option: 'Virus', style: { backgroundColor: '#9F65FF' } },
+  { option: 'Autenticación', style: { backgroundColor: '#0064EF' } },
+  { option: 'Abrir consola del navegador', style: { backgroundColor: '#50DC64' } },
 ]
 const inicioJson = {
   "choices": [
@@ -38,10 +38,10 @@ function Comenzarjuego() {
   const [preguntas, setPreguntas] = useState([]);
   const [respuesta, setRespuesta] = useState();
 
-  let profile = JSON.parse(localStorage.getItem('user'));
-  let tiradas = profile.productos.tiras;
+  //let profile = JSON.parse(localStorage.getItem('user'));
+  let tiradas = 3;
   let resto = Number(localStorage.getItem('tiradas')) ? Number(localStorage.getItem('tiradas')) :0 ;
-  const tiempo = profile.productos.time
+  const tiempo = 25
 
 
   const [isOpen, setIsOpen] = useState(false);
@@ -56,7 +56,7 @@ function Comenzarjuego() {
       const newPrizeNumber = Math.floor(Math.random() * data.length);
       setPrizeNumber(newPrizeNumber);
       setMustSpin(true);
-      //audio.play();
+      audio.play();
       setClassCambio(false);
 
       console.log("tiradas_ --> "+ (Number(resto)-1))
@@ -65,16 +65,13 @@ function Comenzarjuego() {
     }
   }
 
-  if (!localStorage.getItem('user')) {
-    window.location = '/pruebadreact';
-  }
   let apikey = 'sk-';
   const miFecht = async (prompt) =>
     await fetch('https://api.openai.com/v1/engines/text-davinci-003/completions', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${apikey}qMnzckqSmTuvsUVCp9j3T3BlbkFJLOsjRva1PSXRB9QGOEtw`
+        'Authorization': `Bearer ${apikey}x9UtNYOtWmEhHTdUPu5wT3BlbkFJLl3peK2pi2gDgAjO7u16`
       },
       body: JSON.stringify({
         prompt,
@@ -133,9 +130,11 @@ function Comenzarjuego() {
     if(count === 0){
       comprobar(0)
     }if (count === -4) {
-      window.location.reload(true);
+      
+      window.location.pathname = 'jugar';
       if(resto === tiradas){
-        window.location = '/resumen';
+        
+        window.location.pathname = 'resumen';
         localStorage.removeItem('tiradas');
       }
     } 
@@ -192,7 +191,7 @@ function Comenzarjuego() {
           <img src={spin} alt="close logo" />
         </button>
 
-        <a href='pruebadreact/' className="btn-cerrar">
+        <a href='retoseguridad/' className="btn-cerrar">
           <img src={close} alt="close logo" />
         </a>
         <div className="games-counter">

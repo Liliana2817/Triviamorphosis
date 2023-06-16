@@ -1,8 +1,8 @@
 {
-  "name": "direcotrios-varios",
+  "name": "retoseguridad",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://juancmacias.github.io/pruebadreact/",
+  "homepage": "https://github.com/juancmacias/pruebadreact.git",
   "dependencies": {
     "@react-oauth/google": "^0.11.0",
     "antd": "^5.5.0",
